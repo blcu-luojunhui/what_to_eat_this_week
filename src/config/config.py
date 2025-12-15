@@ -6,7 +6,7 @@ class Config:
     JWT_EXPIRE_SECONDS = 3600
 
     # MySQL
-    MYSQL_DSN = "mysql+aiomysql://user:pass@127.0.0.1:3306/test"
+    MYSQL_DSN = "mysql+aiomysql://root:123456@127.0.0.1:3306/mysql"
 
     # Redis
     REDIS_URL = "redis://127.0.0.1:6379/0"
